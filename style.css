@@ -1,0 +1,150 @@
+.hide {
+  opacity: 0;
+}
+
+.clearfix {
+          overflow: auto;
+          display: table;
+}
+      
+ .float-right {
+             float: right;
+}
+
+ .float-left {
+             float: left;
+}
+   
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+.h1-1 {
+      border: 5px solid hidden;
+      opacity: 0.8;
+      filter: alpha(opacity=80);
+}
+
+a.-url:link {
+               color: #0000cc;
+}
+
+a.-url:visited {
+               color: #ff003b;
+}
+
+a.-url:hover {
+             text-decoration: underline;
+             color: #70d9a9;
+}
+
+               /**START: contact.html************************************/
+              /************************************START: contact.html**/
+              
+#contact-bg-1 {
+            background:url("images/flower-5.jpg") no-repeat center center fixed;
+            background-size: cover;
+            height: 100%;
+}
+               
+                   /***START: index.html************************************/
+                  /**START: index.html ************************************/
+     
+#index-bg-1 {
+          	background:url("images/flower-3.jpg") no-repeat center center fixed;
+            background-size: cover;
+            height: 100%;
+}
+
+               /**START: coming-soon.html************************************/
+              /******************************START: coming-soon.html *******/
+          
+#cmsn-bg {
+        background:url(images/check-1.gif) no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+}
+
+#cmsn {
+      background: linear-gradient(to right, #FFFF00 , #FF99FF , #66FF99);
+      border: 3px solid #ED542B;
+      border-radius: 60px;
+      padding-bottom: .005em;
+      padding-top: .005em;
+      padding-left: 1.2em;
+      padding-right: 1.2em;
+      color: #0000cc;
+      font-size: 1.43em;
+      text-align: center;
+      width: 44%;
+      position: fixed;
+      bottom: 22%;
+      right: 28%;
+}
+
+               
+               /**********************************************START: about.html*/
+              /************START: about.html***********************************/
+          
+#about-bg-1 {
+          	background:url("images/flower-1.jpg");
+            background-repeat: round repeat;
+            background-size: 20em;
+}
+
+.about-img {
+           float: left;
+           width: 33.33%;
+           padding: 15px;
+           margin-left: auto;
+           margin-right: auto;
+}
+
+.about-p {
+         border-radius: 40px;
+         padding: 1em;
+         color: #0000cc;
+         text-align: center;
+         background-color: lightyellow;
+         margin: 1em 1em;
+         font-size: 1.7em;
+         font-weight: normal;
+         border: 5px solid hidden;
+         opacity: 0.8;
+         filter: alpha(opacity=80);
+
+}
+  	  
+.img-a {
+  	   border:10px solid #70d9a9;
+       border-radius: 40px;
+       opacity: 0.85;
+       filter: alpha(opacity=85);
+       width: 100%;
+}
+
+.img-a:hover {
+                opacity: 1.0;
+                filter: alpha(opacity=100);
+  
+}
+  
+#div-1 {
+        border: 10px solid #70d9a9;
+        border-radius: 40px;
+        font-size: 1em;
+        margin: auto;
+        padding: 2em 2em;
+        font-weight: lighter;
+        background-color: #fff0f5;
+         
+}         
+
+#div-img {
+    width:100%;
+    border: 3px solid hidden;
+    border-radius: 30px;
+}
