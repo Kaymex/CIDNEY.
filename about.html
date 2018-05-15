@@ -26,23 +26,12 @@
 <div class="container-fluid">
 
   <div class="row">
-
-    <div class=" col-lg-offset-2 col-sm">
-
-      <div>
-          
-          <h1 class="about-p" tooltip="explore rest of site">
-            
-            <a class="-url" href="index.html">Homepage</a> | About Me |
-            
-            <a class="-url" href="contact.html">Contact Me</a>
-
-
-            
-          </h1>
-
-      </div>    
-
+    <div class=" col-md-12">        
+      <h1 class="about-p" title="explore rest of site">
+        <a class="-url" href="index.html">Homepage</a> | About Me |
+        <a class="-url" href="contact.html">Contact Me</a>           
+      </h1>  
+    </div>
   </div>
 
 </div>
@@ -50,20 +39,27 @@
 
 
 
-<div class="container" id=div-1> 
+<div class="container-fluid div-1" > 
 
   <div class="row">
 
-    <div class="col-lg-12">
+    <div class="col-md-12">
 
 
 
 
-      <div class="container"> 
+      <div class="container-fluid"> 
 
         <div class="row">
 
-          <div class="col-lg-7">
+
+          <div class="col-md">
+
+            <img src="images/cidney-1.jpg" alt="picture of web-development fellow" id="div-img">
+
+          </div>
+
+          <div class="col-md-7">
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere accumsan dapibus. Etiam facilisis libero eu felis auctor sodales. Fusce at varius dolor, at semper lectus. Nullam ac metus neque. Aenean et ligula dolor. Fusce gravida est in pulvinar vehicula. Maecenas turpis massa, tincidunt ut diam congue, laoreet convallis nibh. Donec elementum elit arcu, molestie posuere nisi dictum nec. Pellentesque auctor dui id nibh tincidunt, ut sollicitudin tortor venenatis. Vivamus non mauris libero. cursussrabitur at massa tellus. Praesent dui arcu, imperdiet eu leo at, gravida vehicula justo. </p>
             
@@ -71,11 +67,7 @@
             
           </div>
 
-          <div class="col-lg">
-
-            <img src="images/cidney-1.jpg" alt="picture of web-development fellow" id="div-img">
-
-          </div>
+          
 
         </div>
 
@@ -95,33 +87,34 @@
 
 
 
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
+<div class="container-fluid">
 
-    <hr class="hide" />
-    
-    <h1 class="about-p">My Programming Projects</h1>
-    
-    <div>
-        
-      <div class="about-img">
-        <a href="coming-soon.html"><img src="images/flower-6.jpg" alt="Flowers" class="img-a"></a>
-      </div>
-      
-      <div class="about-img">
-        <a href="coming-soon.html"><img src="images/flower-6.jpg" alt="Flowers" class="img-a"></a>
-      </div>
-      
-      <div class="about-img">
-        <a href="coming-soon.html"><img src="images/flower-6.jpg" alt="Flowers" class="img-a"></a>
-      </div>
-      
+  <div class="row">
+
+    <div class="col-md-12">
+      <h1 class="about-p">My Programming Projects</h1>
     </div>
 
+  </div>
+        
+  <div class="row">   
+
+    <div class="col-md-4" class="about-img">
+      <a href="coming-soon.html"><img src="images/flower-6.jpg" alt="Flowers" class="img-a"></a>
+    </div>
+
+    <div class="col-md-4" class="about-img">
+      <a href="coming-soon.html"><img src="images/flower-6.jpg" alt="Flowers" class="img-a"></a>
+    </div>
+    
+    <div class="col-md-4" class="about-img">
+      <a href="coming-soon.html"><img src="images/flower-6.jpg" alt="Flowers" class="img-a"></a>
+    </div>
+
+  </div>
+
 </div>
-</div>
-</div>
+
 
 
   
@@ -130,6 +123,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      $('#myModal').on('shown.bs.modal', function () {
+      $('#myInput').trigger('focus')
+      })
+    </script>
 
   </body>
 
